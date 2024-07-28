@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link href="
+    https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+    " rel="stylesheet">
+    <!--google style Setting Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--My StyleSheet Link CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--FlatOffer-->
+    <div class="flatoffer">
+
+        <h2>FLAT 60% OFFER ON YOUR FIRST PURCHASE
+            <i id="closeoffer" class="fa-solid fa-xmark" style="margin-left: 3%;cursor: pointer;"></i>
+        </h2>
+    </div>
+
+
+    <!--Create Navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbarlinks">
+            <p class="navbarlinks"><a href="index.html">MEN</a></p>
+            <p class="navbarlinks"><a href="index.html">WOMEN</a></p>
+            <p class="navbarlinks"><a href="index.html">KIDS</a></p>
+            <p class="navbarlinks"><a href="home.html">HOME & LIVING</a></p>
+            <p class="navbarlinks"><a href="contact.html">CONTACT US</a></p>
+        </div>
+
+        <div class="menubar1">
+            <i class="fa-solid fa-bars" onclick="showNavbar()"></i>
+        </div>
+    </nav>
+    <!--side menubar-->
+    <div class="side-menubar">
+        <p style="text-align:right ;">
+            <i class="fa-solid fa-xmark" onclick="closeNavbar()"></i>
+        </p>
+        <div class="side-navbarlinks">
+            <p class="side-navbarlinks"><a href="index.html">MEN</a></p>
+            <p class="side-navbarlinks"><a href="index.html">WOMEN</a></p>
+            <p class="side-navbarlinks"><a href="index.html">KIDS</a></p>
+            <p class="side-navbarlinks"><a href="home.html">HOME & LIVING</a></p>
+            <p class="side-navbarlinks"><a href="contact.html">CONTACT US</a></p>
+        </div>
+
+    </div>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                </div>
+                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+            </form>
+        </div>
+      </section>
+
+
+
+
+
+
+
+    <!--footer-->
+    </div>
+    <div class="footer">
+        <div class="footercontainer">
+            <div class="footerbag1">
+                <h2 class="headingtext">Nostra</h2>
+                <p>Shopping online saves you the trouble of going out to buy things that you can easily find at the
+                    click of a few buttons,The best part about shopping online is that you get your orders delivered to
+                    your doorstep. Happy shopping!</p>
+                <div class="footericons">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 Nostra.com</p>
+    </div>
+    <script src="home.js"></script>
+</body>
